@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Acesso do Mestre</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="inicio">
+
+<h1>👑 MODO MESTRE</h1>
+
+<p>Área restrita</p>
+
+<input 
+type="password" 
+id="codigo"
+placeholder="Digite o código">
+
+<br><br>
+
+<button onclick="entrar()">
+ENTRAR
+</button>
+
+<p id="mensagem"></p>
+
+</div>
+
+
+<script>
+
+function entrar(){
+
+let codigo = document.getElementById("codigo").value;
+
+if(codigo === "ENF2026"){
+
+window.location.href = "mestre.html";
+
+}
+
+else{
+
+document.getElementById("mensagem").innerHTML =
+"Código incorreto.";
+
+}
+
+}
+
+</script>
+
+
+</body>
+
+</html>
