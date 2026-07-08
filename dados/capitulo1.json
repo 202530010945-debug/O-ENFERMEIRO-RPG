@@ -1,0 +1,2103 @@
+{
+  "titulo": "Capítulo 1 - O Convite",
+
+  "musica": "chuva.mp3",
+
+  "imagem": "rua.jpeg",
+
+  "cenas": [
+
+    {
+      "id": 0,
+
+      "personagem": "procopio",
+
+      "nome": "Procópio Valongo",
+
+      "imagem": "o_convite.jpeg",
+
+      "texto": [
+        "Meu nome é Procópio Valongo.",
+        "Durante muitos anos carreguei comigo uma lembrança que preferia esquecer.",
+        "Nunca imaginei que um simples emprego mudaria completamente o rumo da minha vida.",
+        "Tudo começou quando recebi uma carta com uma proposta inesperada.",
+        "O convite parecia apenas uma oportunidade de trabalho, mas escondia acontecimentos que eu jamais poderia prever."
+      ],
+
+      "escolhas": [
+
+        {
+          "texto": "Aceitar imediatamente o trabalho",
+          "atributo": "ambicao",
+          "valor": 1,
+          "proximaCena": 1
+        },
+
+        {
+          "texto": "Pedir mais informações sobre o coronel",
+          "atributo": "prudencia",
+          "valor": 1,
+          "proximaCena": 2
+        },
+
+        {
+          "texto": "Recusar a proposta",
+          "atributo": "consciencia",
+          "valor": 1,
+          "proximaCena": 3
+        }
+
+      ]
+    },
+
+
+    {
+      "id": 1,
+
+      "imagem": "carta.jpeg",
+
+      "texto": [
+        "Movido pela necessidade e pela esperança de uma nova oportunidade, aceitei o trabalho.",
+        "A viagem até a casa do coronel parecia tranquila, mas uma sensação estranha acompanhava meus pensamentos.",
+        "Eu ainda não sabia que aquele encontro mudaria minha história para sempre."
+      ],
+
+      "escolhas": [
+
+        {
+          "texto": "Continuar a viagem até a casa do coronel",
+          "atributo": "ambicao",
+          "valor": 1,
+          "proximaCena": 4
+        }
+
+      ]
+    },
+
+
+    {
+      "id": 2,
+
+      "imagem": "carta.jpeg",
+
+      "texto": [
+        "Antes de aceitar, procurei saber quem era o homem que eu deveria cuidar.",
+        "As informações não eram tranquilizadoras.",
+        "O coronel era conhecido pelo temperamento difícil e pelas constantes explosões de raiva.",
+        "Mesmo assim, a oportunidade ainda parecia importante demais para ser ignorada."
+      ],
+
+      "escolhas": [
+
+        {
+          "texto": "Aceitar o trabalho com cautela",
+          "atributo": "prudencia",
+          "valor": 1,
+          "proximaCena": 4
+        },
+
+        {
+          "texto": "Desistir da proposta",
+          "atributo": "medo",
+          "valor": 1,
+          "proximaCena": 3
+        }
+
+      ]
+    },
+
+
+    {
+      "id": 3,
+
+      "imagem": "rua.jpeg",
+
+      "texto": [
+        "Recusei a proposta.",
+        "Por alguns dias tentei convencer a mim mesmo de que havia tomado a decisão correta.",
+        "Mas uma dúvida permanecia: teria eu perdido uma grande oportunidade?"
+      ],
+
+      "escolhas": [
+
+        {
+          "texto": "Voltar atrás e aceitar o trabalho",
+          "atributo": "ambicao",
+          "valor": 1,
+          "proximaCena": 4
+        }
+
+      ]
+    },
+
+
+    {
+      "id": 4,
+
+      "personagem": "procopio",
+
+      "nome": "Procópio Valongo",
+
+      "imagem": "casa_coronel.jpeg",
+
+      "texto": [
+        "Finalmente cheguei à residência do coronel.",
+        "A casa era grande e antiga, cercada por um silêncio que parecia esconder muitos segredos.",
+        "Ao atravessar o portão, senti uma sensação estranha, como se aquele lugar carregasse histórias que ninguém queria contar.",
+        "Um empregado abriu a porta e anunciou minha chegada.",
+        "Poucos segundos depois, ouvi uma voz forte vindo do interior da casa.",
+        "\"Então você é o novo enfermeiro?\"",
+        "Naquele instante, conheci o homem que mudaria completamente o rumo da minha vida."
+      ],
+
+      "escolhas": [
+        {
+          "texto": "Responder com respeito e tranquilidade",
+          "atributo": "prudencia",
+          "valor": 1,
+          "proximaCena": 5
+        },
+
+        {
+          "texto": "Demonstrar confiança e falar sobre sua experiência",
+          "atributo": "ambicao",
+          "valor": 1,
+          "proximaCena": 6
+        },
+
+        {
+          "texto": "Observar o coronel antes de responder",
+          "atributo": "consciencia",
+          "valor": 1,
+          "proximaCena": 7
+        }
+      ]
+    },
+
+
+    {
+      "id": 5,
+
+      "personagem": "procopio",
+
+      "nome": "Procópio Valongo",
+
+      "imagem": "coronel.jpeg",
+
+      "texto": [
+        "Respirei fundo e respondi com respeito.",
+        "\"Sim, senhor. Estou aqui para cuidar do senhor e cumprir meu trabalho da melhor maneira possível.\"",
+        "O coronel me observou em silêncio por alguns segundos.",
+        "Parecia testar minha paciência antes mesmo de permitir que eu entrasse.",
+        "Apesar do temperamento difícil, percebi que a calma seria minha maior aliada naquela casa."
+      ],
+
+      "escolhas": [
+        {
+          "texto": "Acompanhar o coronel até seus aposentos",
+          "atributo": "prudencia",
+          "valor": 1,
+          "proximaCena": 8
+        }
+      ]
+    },
+
+
+    {
+      "id": 6,
+
+      "personagem": "procopio",
+
+      "nome": "Procópio Valongo",
+
+      "imagem": "coronel.jpeg",
+
+      "texto": [
+        "Mantive a postura firme e falei sobre minha experiência.",
+        "\"Sou capaz de lidar com situações difíceis. Vim preparado para o trabalho.\"",
+        "O coronel levantou os olhos e pareceu interessado.",
+        "Talvez tivesse encontrado alguém que não se intimidava facilmente.",
+        "Mas eu ainda não sabia que confiança demais poderia ser perigosa."
+      ],
+
+      "escolhas": [
+        {
+          "texto": "Aceitar as primeiras tarefas do coronel",
+          "atributo": "ambicao",
+          "valor": 1,
+          "proximaCena": 8
+        }
+      ]
+    },
+
+
+    {
+      "id": 7,
+
+      "personagem": "procopio",
+
+      "nome": "Procópio Valongo",
+
+      "imagem": "coronel.jpeg",
+
+      "texto": [
+        "Antes de responder, observei cuidadosamente aquele homem.",
+        "Sua voz era forte, mas havia algo em seu olhar que revelava sofrimento.",
+        "A casa parecia esconder histórias que ninguém tinha coragem de contar.",
+        "Decidi ser cuidadoso. Talvez aquele trabalho exigisse mais do que apenas conhecimento médico."
+      ],
+
+      "escolhas": [
+        {
+          "texto": "Investigar discretamente a história do coronel",
+          "atributo": "consciencia",
+          "valor": 1,
+          "proximaCena": 8
+        }
+      ]
+    },
+{
+  "id": 8,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_coronel.jpeg",
+
+  "texto": [
+    "O primeiro dia naquela casa passou lentamente.",
+    "Logo percebi que cuidar do coronel seria muito mais difícil do que eu havia imaginado.",
+    "Ele era impaciente, exigente e parecia encontrar motivos para reclamar de tudo.",
+    "Suas palavras eram duras, mas por alguns momentos eu percebia que havia sofrimento escondido atrás daquela personalidade agressiva.",
+    "Eu precisava decidir como lidaria com aquele homem durante os próximos dias."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Ter paciência e tentar compreender o coronel",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 9
+    },
+
+    {
+      "texto": "Manter apenas uma relação profissional",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 10
+    },
+
+    {
+      "texto": "Tentar conquistar a confiança do coronel rapidamente",
+      "atributo": "ambicao",
+      "valor": 1,
+      "proximaCena": 11
+    }
+
+  ]
+},
+{
+  "id": 9,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "coronel.jpeg",
+
+  "texto": [
+    "Decidi não enxergar apenas a agressividade do coronel.",
+    "Por trás das reclamações e da impaciência, percebi um homem solitário e marcado pelo sofrimento.",
+    "Com o passar dos dias, tentei conversar mais e compreender suas atitudes.",
+    "Aos poucos, ele começou a demonstrar uma pequena confiança em mim.",
+    "Mas eu ainda não sabia até onde aquela aproximação poderia me levar."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar tentando ajudar o coronel",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 12
+    }
+
+  ]
+},
+
+
+{
+  "id": 10,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "corredor.jpeg",
+
+  "texto": [
+    "Decidi manter uma postura profissional.",
+    "Eu estava ali para cuidar da saúde do coronel, não para fazer parte de sua vida pessoal.",
+    "Mantive distância e evitei discussões desnecessárias.",
+    "Mesmo assim, percebia que aquele homem carregava uma história difícil de entender."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar observando o comportamento do coronel",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 12
+    }
+
+  ]
+},
+
+
+{
+  "id": 11,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "coronel.jpeg",
+
+  "texto": [
+    "Decidi mostrar ao coronel que eu era mais do que apenas um enfermeiro.",
+    "Passei a buscar sua aprovação e tentei conquistar sua confiança rapidamente.",
+    "A estratégia funcionou: ele começou a depender mais da minha presença.",
+    "Porém, quanto mais próximo eu ficava, mais segredos daquela casa pareciam surgir."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Aceitar a confiança do coronel e continuar",
+      "atributo": "ambicao",
+      "valor": 1,
+      "proximaCena": 12
+    }
+
+  ]
+},
+{
+  "id": 12,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "casa_coronel.jpeg",
+
+  "texto": [
+    "Os dias passaram lentamente naquela casa.",
+    "A convivência com o coronel revelou um homem difícil, mas também alguém cercado por solidão e amargura.",
+    "Alguns momentos ele parecia apenas um homem cansado pela idade, mas em outros sua raiva tomava conta de suas palavras.",
+    "Eu começava a entender que aquele trabalho exigiria muito mais do que cuidados médicos.",
+    "Era preciso lidar com o temperamento de um homem que parecia lutar contra seus próprios sentimentos."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar tentando conquistar a confiança do coronel",
+      "atributo": "lealdade",
+      "valor": 1,
+      "proximaCena": 13
+    },
+
+    {
+      "texto": "Manter cautela e observar seus comportamentos",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 14
+    },
+
+    {
+      "texto": "Questionar o tratamento agressivo do coronel",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 15
+    }
+
+  ]
+},
+{
+  "id": 13,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "coronel.jpeg",
+
+  "texto": [
+    "Com o passar dos dias, percebi uma mudança no comportamento do coronel.",
+    "Ele ainda era difícil e muitas vezes agressivo, mas começou a permitir que eu conhecesse um pouco mais de sua rotina.",
+    "Em alguns momentos, deixava escapar lembranças do passado e histórias que pareciam carregadas de arrependimento.",
+    "Eu começava a perceber que havia muito mais naquele homem do que sua aparência severa mostrava.",
+    "Mas quanto mais eu conhecia o coronel, mais perguntas surgiam."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Perguntar sobre o passado do coronel",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 14
+    },
+
+    {
+      "texto": "Evitar perguntas e continuar apenas cuidando dele",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 15
+    }
+
+  ]
+},
+{
+  "id": 14,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "biblioteca.jpeg",
+
+  "texto": [
+    "Movido pela curiosidade, decidi perguntar sobre o passado do coronel.",
+    "Por alguns instantes, ele permaneceu em silêncio, como se escolhesse cuidadosamente o que revelar.",
+    "Falou sobre antigos conflitos, perdas e momentos dos quais parecia se arrepender.",
+    "Percebi que existiam histórias naquela casa que ainda não haviam sido contadas.",
+    "Algo me dizia que eu precisava prestar mais atenção ao que acontecia ao meu redor."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar investigando os segredos da casa",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 16
+    }
+
+  ]
+},
+
+
+{
+  "id": 15,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "corredor.jpeg",
+
+  "texto": [
+    "Decidi não fazer perguntas.",
+    "Afinal, eu estava ali apenas para cuidar do coronel e cumprir meu trabalho.",
+    "Mesmo assim, comecei a perceber detalhes estranhos na rotina da casa.",
+    "Os empregados evitavam certos assuntos e pareciam desconfortáveis quando o passado do coronel era mencionado.",
+    "Talvez houvesse muito mais naquela história do que eu imaginava."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Observar melhor o comportamento das pessoas da casa",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 16
+    }
+
+  ]
+},
+{
+  "id": 16,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_coronel.jpeg",
+
+  "texto": [
+    "Com o passar das semanas, minha rotina naquela casa começou a mudar.",
+    "Eu já conhecia os hábitos do coronel e sabia reconhecer seus momentos de irritação.",
+    "Porém, naquela noite, algo foi diferente.",
+    "Uma discussão começou sem motivo aparente, e percebi que a raiva do coronel parecia maior do que o normal.",
+    "Pela primeira vez, senti que eu precisava tomar cuidado com cada palavra que dizia."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Tentar acalmar o coronel",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 17
+    },
+
+    {
+      "texto": "Manter distância até que ele se acalme",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 18
+    },
+
+    {
+      "texto": "Enfrentar o comportamento agressivo do coronel",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 19
+    }
+
+  ]
+},
+{
+  "id": 17,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "coronel.jpeg",
+
+  "texto": [
+    "Escolhi permanecer calmo e tentar entender o que estava acontecendo.",
+    "Pouco a pouco, a raiva do coronel diminuiu.",
+    "Naquele momento, percebi que por trás daquele homem agressivo existia alguém marcado por dores antigas.",
+    "Ele não pediu desculpas, mas sua expressão mudou.",
+    "Talvez eu estivesse começando a conhecer o verdadeiro coronel."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Continuar ao lado do coronel",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 20
+    }
+  ]
+},
+
+
+{
+  "id": 18,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "corredor.jpeg",
+
+  "texto": [
+    "Decidi não enfrentar o coronel naquele momento.",
+    "Afastei-me e esperei que sua raiva passasse.",
+    "Apesar de evitar o conflito, fiquei pensando no que poderia ter causado aquela reação.",
+    "Aquela casa parecia guardar mais segredos do que eu imaginava.",
+    "Eu precisava continuar atento."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Investigar o que aconteceu naquela noite",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 20
+    }
+  ]
+},
+
+
+{
+  "id": 19,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "coronel.jpeg",
+
+  "texto": [
+    "Não consegui permanecer em silêncio diante daquela atitude.",
+    "Pela primeira vez, deixei claro que eu não aceitaria qualquer tipo de tratamento.",
+    "O coronel ficou surpreso com minha reação.",
+    "Durante alguns segundos, apenas o silêncio tomou conta do quarto.",
+    "A partir daquele momento, nossa relação nunca mais seria a mesma."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Permanecer firme no trabalho",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 20
+    }
+  ]
+},
+{
+  "id": 20,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "casa_noite.jpeg",
+
+  "texto": [
+    "Os dias seguintes foram marcados por uma mistura de medo, dúvida e responsabilidade.",
+    "Eu havia chegado naquela casa pensando apenas em cumprir um trabalho.",
+    "Mas agora eu sabia que estava envolvido em uma história muito maior do que imaginava.",
+    "O coronel escondia segredos, e cada conversa parecia revelar apenas uma pequena parte da verdade.",
+    "Naquela noite, enquanto caminhava pelos corredores silenciosos da casa, percebi que algo estava prestes a acontecer.",
+    "Eu ainda não sabia, mas aquele seria apenas o começo da minha maior provação."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar investigando os mistérios da casa",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 21
+    },
+
+    {
+      "texto": "Concentrar-se apenas no cuidado do coronel",
+      "atributo": "responsabilidade",
+      "valor": 1,
+      "proximaCena": 21
+    }
+
+  ]
+},
+{
+  "id": 21,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "biblioteca.jpeg",
+
+  "texto": [
+    "Naquela noite, algo chamou minha atenção enquanto caminhava pela casa.",
+    "Entre antigos livros e documentos esquecidos, encontrei uma carta guardada em uma gaveta da biblioteca.",
+    "O papel estava envelhecido, mas algumas palavras ainda podiam ser lidas.",
+    "A carta mencionava acontecimentos do passado do coronel que eu desconhecia completamente.",
+    "Pela primeira vez, percebi que meu trabalho naquela casa não envolvia apenas cuidar de um homem doente.",
+    "Havia uma história escondida ali, e eu estava cada vez mais envolvido nela."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Abrir a carta e descobrir seu conteúdo",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 22
+    },
+
+    {
+      "texto": "Guardar a carta e respeitar a privacidade do coronel",
+      "atributo": "responsabilidade",
+      "valor": 1,
+      "proximaCena": 22
+    }
+
+  ]
+},
+
+{
+  "id": 22,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "carta.jpeg",
+
+  "texto": [
+    "Com cuidado, abri a carta e comecei a ler suas palavras antigas.",
+    "O conteúdo revelava acontecimentos do passado do coronel que explicavam parte de sua amargura.",
+    "Havia nomes, datas e lembranças de pessoas que pareciam ter marcado profundamente sua vida.",
+    "Entendi que aquele homem carregava culpas e arrependimentos que nunca havia contado a ninguém.",
+    "Fechei a carta lentamente, sabendo que agora eu conhecia um lado do coronel que poucos haviam visto.",
+    "Mas uma pergunta permanecia em minha mente: por que ele havia escondido tudo aquilo?"
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Guardar a carta e esperar o momento certo",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 23
+    },
+
+    {
+      "texto": "Confrontar o coronel sobre a carta",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 23
+    }
+
+  ]
+},
+
+{
+  "id": 23,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "casa_noite.jpeg",
+
+  "texto": [
+    "Naquela noite, compreendi que minha chegada àquela casa não havia sido apenas uma oportunidade de trabalho.",
+    "O coronel escondia uma história marcada por sofrimento, erros e segredos.",
+    "Eu ainda não sabia quais consequências minhas escolhas trariam, mas uma coisa era certa: eu já não era apenas um enfermeiro naquela casa.",
+    "Eu fazia parte daquela história.",
+    "E o que eu descobriria nos próximos dias mudaria para sempre minha visão sobre o coronel."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar a história",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 24
+    }
+
+  ]
+},
+{
+  "id": 24,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_procopio.jpeg",
+
+  "texto": [
+    "O dia amanheceu diferente na casa do coronel.",
+    "Depois de tudo que descobri, eu já não conseguia enxergar aquele lugar como antes.",
+    "Cada corredor parecia esconder uma lembrança, e cada porta parecia guardar uma história que ainda não havia sido revelada.",
+    "Eu precisava decidir como seguir dali em diante.",
+    "Continuar meu trabalho normalmente parecia a escolha mais segura, mas ignorar os segredos daquela casa parecia impossível."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar investigando os segredos da casa",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 25
+    },
+
+    {
+      "texto": "Dedicar-se apenas ao cuidado do coronel",
+      "atributo": "responsabilidade",
+      "valor": 1,
+      "proximaCena": 26
+    },
+
+    {
+      "texto": "Conversar diretamente com o coronel",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 27
+    }
+
+  ]
+},
+{
+  "id": 25,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "biblioteca.jpeg",
+
+  "texto": [
+    "Decidi continuar investigando os mistérios daquela casa.",
+    "Durante meus momentos de descanso, passei a observar cada detalhe dos corredores, dos quartos e dos objetos antigos.",
+    "A biblioteca chamou minha atenção novamente.",
+    "Entre livros empoeirados e documentos guardados, encontrei registros que pareciam ter sido escondidos de propósito.",
+    "Algumas páginas falavam sobre acontecimentos antigos envolvendo o coronel e pessoas que já não estavam mais naquela casa.",
+    "Quanto mais eu descobria, mais percebia que a história daquele homem era muito mais complexa do que eu imaginava."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Ler os documentos encontrados na biblioteca",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 28
+    },
+
+    {
+      "texto": "Guardar os documentos e continuar observando a casa",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 29
+    }
+
+  ]
+},
+{
+  "id": 26,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_coronel.jpeg",
+
+  "texto": [
+    "Decidi que meu dever era cuidar do coronel, não investigar seu passado.",
+    "Passei a dedicar toda a minha atenção ao seu tratamento e às suas necessidades diárias.",
+    "Com o passar dos dias, percebi pequenas mudanças em seu comportamento.",
+    "Embora continuasse severo, o coronel começou a confiar mais em mim e permitiu que eu conhecesse um pouco de sua rotina.",
+    "Ainda assim, havia momentos em que ele ficava em silêncio, olhando pela janela, como se revivesse lembranças que o atormentavam.",
+    "Eu precisava decidir se respeitaria aquele silêncio ou tentaria ajudá-lo a enfrentar suas dores."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Respeitar o silêncio do coronel",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 30
+    },
+
+    {
+      "texto": "Conversar sobre o que o preocupa",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 31
+    }
+
+  ]
+},
+{
+  "id": 27,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "coronel_conversa.jpeg",
+
+  "texto": [
+    "Decidi enfrentar minhas dúvidas e conversar diretamente com o coronel.",
+    "\"Senhor, há algo nesta casa que o atormenta. Percebo isso em seu olhar.\"",
+    "Por alguns segundos, ele permaneceu em silêncio, como se avaliasse minhas palavras.",
+    "Então suspirou profundamente e respondeu:",
+    "\"Existem lembranças que nunca deixam de nos perseguir, enfermeiro.\"",
+    "Aquela resposta não esclarecia tudo, mas confirmava que o passado do coronel escondia muito mais do que eu imaginava.",
+    "Eu precisava decidir se insistiria naquela conversa ou respeitaria o momento."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Insistir e pedir que conte toda a verdade",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 32
+    },
+
+    {
+      "texto": "Respeitar o silêncio do coronel",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 33
+    }
+
+  ]
+},
+{
+  "id": 28,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "documentos.jpeg",
+
+  "texto": [
+    "Com cuidado, comecei a ler os documentos encontrados na biblioteca.",
+    "Os papéis revelavam registros de antigas propriedades, cartas pessoais e anotações escritas pelo próprio coronel.",
+    "Entre aquelas páginas, um nome aparecia repetidamente: Antônio.",
+    "Ao lado do nome havia uma frase escrita com tinta já desbotada:",
+    "\"Jamais conseguirei reparar o que aconteceu.\"",
+    "Naquele instante percebi que o passado do coronel escondia um acontecimento muito mais grave do que eu imaginava."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Continuar lendo os documentos",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 34
+    }
+  ]
+},
+{
+  "id": 29,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "biblioteca.jpeg",
+
+  "texto": [
+    "Decidi não invadir ainda mais a privacidade do coronel.",
+    "Guardei os documentos exatamente onde estavam.",
+    "Mesmo sem lê-los, tive a certeza de que escondiam respostas importantes.",
+    "Saí da biblioteca convencido de que, cedo ou tarde, a verdade apareceria."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Continuar observando discretamente",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 34
+    }
+  ]
+},
+{
+  "id": 30,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "janela.jpeg",
+
+  "texto": [
+    "Resolvi respeitar o silêncio do coronel.",
+    "Às vezes, cuidar de alguém também significava saber esperar.",
+    "Durante alguns minutos permanecemos em silêncio, olhando a chuva cair pela janela.",
+    "Mesmo sem palavras, senti que nossa confiança aumentava."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Continuar acompanhando o coronel",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 34
+    }
+  ]
+},
+{
+  "id": 31,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_coronel.jpeg",
+
+  "texto": [
+    "Perguntei com delicadeza o que tanto o preocupava.",
+    "O coronel fechou os olhos por alguns segundos.",
+    "\"Há erros que nenhum homem consegue apagar.\"",
+    "Foi a única resposta que recebi.",
+    "Mesmo assim, aquelas palavras permaneceram em minha mente."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Refletir sobre o que ouvi",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 34
+    }
+  ]
+},
+{
+  "id": 32,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "coronel_conversa2.jpeg",
+
+  "texto": [
+    "Insisti para que o coronel contasse toda a verdade.",
+    "Ele levantou lentamente da cadeira e caminhou até a janela.",
+    "\"Nem toda verdade traz paz, enfermeiro.\"",
+    "Seu olhar demonstrava um arrependimento profundo.",
+    "Naquele momento compreendi que havia feridas impossíveis de esconder."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Ouvir em silêncio",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 34
+    }
+  ]
+},
+{
+  "id": 33,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "corredor.jpeg",
+
+  "texto": [
+    "Resolvi respeitar o momento e não insistir.",
+    "O coronel parecia travar uma batalha contra suas próprias lembranças.",
+    "Saí do quarto acreditando que, quando estivesse preparado, ele próprio contaria sua história."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Continuar acompanhando o coronel",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 34
+    }
+  ]
+},
+{
+  "id": 34,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "casa_noite.jpeg",
+
+  "texto": [
+    "Independentemente das escolhas que fiz até ali, uma certeza permanecia.",
+    "Aquela casa escondia um passado doloroso, e o coronel carregava um peso que parecia impossível de suportar.",
+    "Eu já não podia fingir que era apenas um enfermeiro.",
+    "Sem perceber, havia me tornado parte daquela história.",
+    "E eu ainda estava longe de descobrir toda a verdade."
+  ],
+
+  "escolhas": [
+    {
+      "texto": "Prosseguir com a investigação",
+      "atributo": "determinacao",
+      "valor": 1,
+      "proximaCena": 35
+    }
+  ]
+},
+{
+  "id": 35,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "cafe_manha.jpeg",
+
+  "texto": [
+    "As semanas passaram lentamente.",
+    "Minha rotina já estava completamente ligada à do coronel.",
+    "Todos os dias eu preparava seus remédios, organizava seus horários e suportava seu temperamento imprevisível.",
+    "Havia manhãs em que ele mal respondia às minhas palavras.",
+    "Em outras, reclamava de tudo, como se minha presença fosse um incômodo constante.",
+    "Mesmo assim, eu continuava firme em meu dever."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Permanecer paciente e cumprir seu trabalho",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 36
+    },
+
+    {
+      "texto": "Responder às provocações do coronel",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 37
+    }
+
+  ]
+},
+{
+  "id": 36,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_coronel.jpeg",
+
+  "texto": [
+    "Respirei fundo e permaneci em silêncio.",
+    "Aprendi que responder ao coronel apenas tornava seus acessos de raiva ainda piores.",
+    "Mesmo assim, suportar suas ofensas todos os dias começava a consumir minhas forças.",
+    "Às vezes, eu me perguntava quanto tempo conseguiria continuar naquela casa.",
+    "Apesar de tudo, havia momentos em que seu olhar revelava um homem cansado, preso às lembranças do passado."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar suportando o comportamento do coronel",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 38
+    },
+
+    {
+      "texto": "Conversar com um dos empregados sobre o coronel",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 39
+    }
+
+  ]
+},
+{
+  "id": 37,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "discussao.jpeg",
+
+  "texto": [
+    "Desta vez, não consegui permanecer em silêncio.",
+    "Respondi ao coronel com firmeza, deixando claro que eu estava ali para ajudá-lo, não para ser humilhado.",
+    "Por alguns instantes, a casa inteira pareceu mergulhar em um silêncio absoluto.",
+    "O coronel me encarou com surpresa. Ninguém costumava enfrentá-lo daquela maneira.",
+    "Depois de alguns segundos, ele apenas virou o rosto e ordenou que eu saísse do quarto.",
+    "Enquanto fechava a porta, percebi que nossa relação havia mudado."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Refletir sobre o que aconteceu",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 38
+    },
+
+    {
+      "texto": "Conversar com os empregados sobre o comportamento do coronel",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 39
+    }
+
+  ]
+},
+{
+  "id": 38,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_procopio.jpeg",
+
+  "texto": [
+    "Naquela noite, o sono demorou a chegar.",
+    "Fiquei pensando em tudo o que havia acontecido desde minha chegada à casa do coronel.",
+    "As ofensas constantes começavam a desgastar minha paciência e minha confiança.",
+    "Por diversas vezes pensei em abandonar aquele emprego.",
+    "Entretanto, algo me dizia que minha história naquela casa ainda não havia terminado.",
+    "Eu precisava decidir se continuaria suportando aquela situação ou se começaria a planejar minha saída."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Permanecer na casa e cumprir sua missão",
+      "atributo": "determinacao",
+      "valor": 1,
+      "proximaCena": 40
+    },
+
+    {
+      "texto": "Pensar seriamente em deixar o emprego",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 41
+    }
+
+  ]
+},
+{
+  "id": 39,
+
+  "personagem": "empregado",
+
+  "nome": "João",
+
+  "imagem": "empregado.jpeg",
+
+  "texto": [
+    "Mais tarde, encontrei um dos empregados no quintal da casa.",
+    "Depois de olhar para os lados para ter certeza de que ninguém nos ouvia, ele se aproximou.",
+    "\"O senhor é um bom homem, enfermeiro... mas tome cuidado.\"",
+    "\"O coronel nem sempre foi assim. A vida mudou completamente depois de uma grande tragédia.\"",
+    "\"Desde então, ele vive atormentado pelas lembranças e desconta sua dor em quem está por perto.\"",
+    "Antes que eu pudesse fazer outra pergunta, o empregado se afastou rapidamente, como se tivesse medo de dizer mais do que deveria."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Perguntar qual foi a tragédia",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 42
+    },
+
+    {
+      "texto": "Agradecer pela informação e continuar observando",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 40
+    }
+
+  ]
+},
+{
+  "id": 40,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "corredor_noite.jpeg",
+
+  "texto": [
+    "Decidi permanecer na casa.",
+    "Apesar das dificuldades, abandonar o coronel naquele momento não parecia a decisão correta.",
+    "Os dias seguintes foram ainda mais cansativos.",
+    "As crises de irritação tornaram-se frequentes, e qualquer pequeno erro era motivo para novas ofensas.",
+    "Mesmo assim, continuei cumprindo minhas obrigações.",
+    "No fundo, eu tinha a sensação de que algo importante estava prestes a acontecer."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar suportando as humilhações",
+      "atributo": "resiliencia",
+      "valor": 1,
+      "proximaCena": 43
+    },
+
+    {
+      "texto": "Começar a registrar o comportamento do coronel",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 44
+    }
+
+  ]
+},
+{
+  "id": 41,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_procopio.jpeg",
+
+  "texto": [
+    "Na manhã seguinte, tomei a decisão de deixar a casa do coronel.",
+    "Eu já não suportava as humilhações constantes nem o peso daquela convivência.",
+    "Enquanto organizava meus poucos pertences, ouvi alguém bater à porta.",
+    "Era um dos empregados da casa.",
+    "\"O coronel teve uma crise durante a madrugada. Nunca o vimos tão abatido.\"",
+    "Por alguns instantes, permaneci em silêncio. Talvez partir naquele momento não fosse a decisão mais justa."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Permanecer e cuidar do coronel",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 43
+    },
+
+    {
+      "texto": "Conversar com o empregado antes de decidir",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 42
+    }
+
+  ]
+},
+{
+  "id": 42,
+
+  "personagem": "empregado",
+
+  "nome": "João",
+
+  "imagem": "empregado.jpeg",
+
+  "texto": [
+    "Olhei para o empregado e perguntei qual havia sido a tragédia.",
+    "Ele hesitou por alguns instantes, como se tivesse medo de pronunciar aquelas palavras.",
+    "\"Muitos anos atrás, o coronel perdeu alguém muito importante para ele.\"",
+    "\"Depois daquele acontecimento, nunca mais foi o mesmo homem.\"",
+    "\"Desde então, vive preso às lembranças e ao arrependimento.\"",
+    "\"Mas essa história não me pertence. Se um dia alguém lhe contar a verdade, deverá ser o próprio coronel.\"",
+    "O empregado abaixou a cabeça e voltou ao trabalho, encerrando a conversa."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Refletir sobre tudo o que ouvi",
+      "atributo": "consciencia",
+      "valor": 1,
+      "proximaCena": 43
+    },
+
+    {
+      "texto": "Perguntar aos outros empregados",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 44
+    }
+
+  ]
+},
+{
+  "id": 43,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_coronel_noite.jpeg",
+
+  "texto": [
+    "Naquela mesma noite, o estado de saúde do coronel piorou consideravelmente.",
+    "A febre aumentou, e sua irritação parecia ainda mais intensa do que nos dias anteriores.",
+    "Enquanto eu preparava os medicamentos, ele reclamava de tudo e recusava qualquer tentativa de ajuda.",
+    "\"Você é lento! Não serve nem para cuidar de um velho doente!\", gritou.",
+    "Respirei fundo para conter minha indignação.",
+    "Eu começava a perceber que não era apenas a doença que consumia o coronel, mas também os fantasmas de seu passado."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Manter a calma e continuar o tratamento",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 45
+    },
+
+    {
+      "texto": "Responder às ofensas do coronel",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 46
+    },
+
+    {
+      "texto": "Sair do quarto por alguns minutos para recuperar a calma",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 47
+    }
+
+  ]
+},
+{
+  "id": 44,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "cozinha.jpeg",
+
+  "texto": [
+    "Tentei conversar com os outros empregados da casa.",
+    "No entanto, todos evitavam falar sobre o passado do coronel.",
+    "Alguns mudavam de assunto imediatamente; outros apenas diziam que certas histórias deveriam permanecer esquecidas.",
+    "Percebi que o medo ainda estava presente naquela casa, mesmo depois de tantos anos.",
+    "Quanto mais eu procurava respostas, mais perguntas surgiam.",
+    "Naquela noite, decidi voltar ao quarto do coronel para continuar meu trabalho."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Retornar ao quarto do coronel",
+      "atributo": "responsabilidade",
+      "valor": 1,
+      "proximaCena": 45
+    },
+
+    {
+      "texto": "Observar discretamente a movimentação da casa antes de voltar",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 47
+    }
+
+  ]
+},
+{
+  "id": 45,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "tratamento.jpeg",
+
+  "texto": [
+    "Ignorei as ofensas e continuei administrando os remédios com a maior calma possível.",
+    "O coronel permanecia inquieto, alternando momentos de silêncio com explosões de irritação.",
+    "Em determinado instante, segurou meu braço com força e me encarou.",
+    "\"Você ainda vai me abandonar como todos os outros...\"",
+    "Aquelas palavras me surpreenderam. Pela primeira vez, percebi que, por trás da arrogância, havia um homem tomado pelo medo da solidão.",
+    "Antes que eu pudesse responder, ele soltou meu braço e virou o rosto em silêncio."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Tentar confortar o coronel",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 48
+    },
+
+    {
+      "texto": "Continuar apenas o tratamento, sem dizer nada",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 49
+    }
+
+  ]
+},
+{
+  "id": 46,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "discussao_quarto.jpeg",
+
+  "texto": [
+    "As palavras do coronel fizeram minha paciência chegar ao limite.",
+    "\"Estou aqui para cuidar do senhor, mas não aceitarei ser tratado dessa maneira\", respondi com firmeza.",
+    "O coronel levantou a voz e bateu com força na mesa ao lado da cama.",
+    "\"Enquanto estiver nesta casa, fará exatamente o que eu mandar!\"",
+    "O silêncio que se seguiu parecia ainda mais pesado do que a discussão.",
+    "Ao deixar o quarto, percebi que nossa convivência havia chegado a um ponto perigoso."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Tentar se acalmar antes de voltar ao quarto",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 48
+    },
+
+    {
+      "texto": "Continuar o trabalho, apesar da discussão",
+      "atributo": "determinacao",
+      "valor": 1,
+      "proximaCena": 49
+    }
+
+  ]
+},
+{
+  "id": 47,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "corredor_noite.jpeg",
+
+  "texto": [
+    "Saí do quarto por alguns minutos para recuperar a calma.",
+    "Caminhei lentamente pelos corredores silenciosos da casa, tentando organizar meus pensamentos.",
+    "O relógio da sala marcava uma hora avançada da noite, e apenas o som da chuva quebrava o silêncio.",
+    "Enquanto passava pela biblioteca, percebi uma luz fraca vindo de uma porta entreaberta.",
+    "Aproximei-me com cuidado, mas, antes que pudesse verificar o que havia ali, ouvi a voz do coronel chamando meu nome.",
+    "Respirei fundo e voltei imediatamente ao quarto."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Retornar e continuar cuidando do coronel",
+      "atributo": "responsabilidade",
+      "valor": 1,
+      "proximaCena": 48
+    },
+
+    {
+      "texto": "Guardar aquela descoberta para investigar depois",
+      "atributo": "curiosidade",
+      "valor": 1,
+      "proximaCena": 49
+    }
+
+  ]
+},
+{
+  "id": 48,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_coronel_noite.jpeg",
+
+  "texto": [
+    "Quando voltei ao quarto, encontrei o coronel visivelmente mais fraco.",
+    "Sua respiração era pesada, e a febre parecia consumir todas as suas forças.",
+    "Pela primeira vez desde minha chegada, ele não gritou nem fez qualquer reclamação.",
+    "Apenas permaneceu em silêncio, olhando para o teto, como se revivesse lembranças de uma vida inteira.",
+    "\"Enfermeiro... às vezes o passado pesa mais do que a própria doença...\", murmurou com dificuldade.",
+    "Aquelas palavras ficaram ecoando em minha mente enquanto eu terminava os cuidados daquela noite."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Permanecer ao lado do coronel durante toda a noite",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 50
+    },
+
+    {
+      "texto": "Aproveitar o silêncio para refletir sobre tudo o que aconteceu",
+      "atributo": "consciencia",
+      "valor": 1,
+      "proximaCena": 50
+    }
+
+  ]
+},
+{
+  "id": 49,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "amanhecer.jpeg",
+
+  "texto": [
+    "O amanhecer trouxe apenas uma breve sensação de tranquilidade.",
+    "A febre do coronel havia diminuído, mas seu temperamento continuava imprevisível.",
+    "Durante o café da manhã, ele voltou a tratar empregados e visitantes com extrema dureza.",
+    "Enquanto organizava os medicamentos, percebi que minha própria paciência estava chegando ao limite.",
+    "Comecei a me perguntar quanto tempo ainda conseguiria suportar aquela rotina.",
+    "Sem perceber, a convivência entre nós dois caminhava para um desfecho inevitável."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Continuar controlando suas emoções",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 50
+    },
+
+    {
+      "texto": "Responder ao coronel na próxima provocação",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 50
+    }
+
+  ]
+},
+{
+  "id": 50,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_coronel.jpeg",
+
+  "texto": [
+    "Nos dias seguintes, a saúde do coronel continuou piorando.",
+    "Seu corpo estava cada vez mais debilitado, mas sua língua permanecia afiada.",
+    "Nenhum empregado permanecia muito tempo ao seu lado.",
+    "Eu era o único que suportava suas constantes reclamações e acessos de raiva.",
+    "Em alguns momentos, chegava a pensar que aquele homem fazia questão de testar os limites da minha paciência.",
+    "Mesmo assim, continuei cumprindo meu dever como enfermeiro."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Permanecer ao lado do coronel, apesar das humilhações",
+      "atributo": "resiliencia",
+      "valor": 1,
+      "proximaCena": 51
+    },
+
+    {
+      "texto": "Evitar conversar com o coronel além do necessário",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 51
+    }
+
+  ]
+},
+{
+  "id": 51,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "sala_jantar.jpeg",
+
+  "texto": [
+    "Algumas semanas se passaram.",
+    "A doença do coronel avançava lentamente, mas seu temperamento tornava-se cada vez mais insuportável.",
+    "Naquela manhã, durante o café, ele começou a criticar meu trabalho diante dos empregados.",
+    "\"Você não passa de um incompetente! Até um criado faria melhor!\"",
+    "Os empregados abaixaram a cabeça, constrangidos, enquanto o silêncio tomava conta da sala.",
+    "Senti meu rosto queimar de vergonha, mas fiz um enorme esforço para manter o controle."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Permanecer em silêncio e continuar trabalhando",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 52
+    },
+
+    {
+      "texto": "Responder com educação, mas defender sua dignidade",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 52
+    },
+
+    {
+      "texto": "Sair da sala para evitar perder o controle",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 52
+    }
+
+  ]
+},
+{
+  "id": 52,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_procopio_noite.jpeg",
+
+  "texto": [
+    "Naquela noite, permaneci acordado por muito tempo.",
+    "As palavras do coronel continuavam ecoando em minha mente.",
+    "Já fazia meses que eu suportava humilhações, ofensas e constantes explosões de raiva.",
+    "Em vários momentos pensei em abandonar aquele emprego e nunca mais voltar.",
+    "Mas algo me impedia de partir. Talvez fosse o senso de dever. Talvez fosse a esperança de que o coronel ainda pudesse mudar.",
+    "Sem saber, eu estava cada vez mais próximo do momento que mudaria minha vida para sempre."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Decidir permanecer até a recuperação do coronel",
+      "atributo": "responsabilidade",
+      "valor": 1,
+      "proximaCena": 53
+    },
+
+    {
+      "texto": "Permanecer apenas por não encontrar um substituto",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 53
+    },
+
+    {
+      "texto": "Continuar porque acredita que não pode desistir agora",
+      "atributo": "determinacao",
+      "valor": 1,
+      "proximaCena": 53
+    }
+
+  ]
+},
+{
+  "id": 53,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "madrugada.jpeg",
+
+  "texto": [
+    "Já passava da meia-noite quando fui acordado por batidas apressadas na porta do meu quarto.",
+    "\"Enfermeiro! O coronel está passando mal!\", gritou um dos empregados.",
+    "Levantei imediatamente e corri até seus aposentos.",
+    "Ao entrar, encontrei o coronel agitado, respirando com dificuldade e tomado pela febre.",
+    "Enquanto preparava os medicamentos, ele alternava momentos de confusão e lucidez, dizendo palavras desconexas sobre acontecimentos do passado.",
+    "Percebi que aquela seria uma das noites mais difíceis desde que eu chegara àquela casa."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Permanecer calmo e continuar o atendimento",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 54
+    },
+
+    {
+      "texto": "Pedir ajuda aos empregados para conter o coronel",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 54
+    }
+
+  ]
+},
+{
+  "id": 54,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "confronto_inicio.jpeg",
+
+  "texto": [
+    "Depois de administrar os medicamentos, tentei acalmar o coronel.",
+    "Por alguns instantes, imaginei que a crise estivesse passando.",
+    "De repente, ele abriu os olhos e me encarou com uma expressão de fúria.",
+    "\"Inútil! Você quer me ver morto!\", gritou, empurrando minha mão.",
+    "Antes que eu pudesse reagir, ele começou a me insultar e tentou me atingir com o castiçal que estava sobre a mesa de cabeceira.",
+    "Instintivamente, segurei seu braço para impedir o golpe.",
+    "Pela primeira vez, nós dois estávamos frente a frente, lutando para dominar um ao outro."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Tentar imobilizar o coronel sem machucá-lo",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 55
+    },
+
+    {
+      "texto": "Conter o coronel usando toda a sua força",
+      "atributo": "coragem",
+      "valor": 1,
+      "proximaCena": 55
+    }
+
+  ]
+},
+{
+  "id": 55,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "luta_quarto.jpeg",
+
+  "texto": [
+    "A luta aconteceu em poucos segundos, embora para mim parecesse durar uma eternidade.",
+    "O coronel, tomado pela fúria, continuava tentando me atingir enquanto eu procurava apenas me defender.",
+    "No desespero, segurei-o com toda a força para conter seus movimentos.",
+    "A resistência dele foi diminuindo pouco a pouco.",
+    "Quando finalmente consegui me afastar, notei que o quarto havia mergulhado em um silêncio absoluto.",
+    "Olhei para o coronel, chamei seu nome e esperei por uma resposta.",
+    "Não houve resposta.",
+    "Naquele instante, compreendi, com horror, que tudo havia mudado."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Verificar os sinais vitais do coronel",
+      "atributo": "responsabilidade",
+      "valor": 1,
+      "proximaCena": 56
+    }
+
+  ]
+},
+{
+  "id": 56,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "quarto_silencio.jpeg",
+
+  "texto": [
+    "Aproximei-me lentamente e procurei sentir sua respiração.",
+    "Seu peito já não se movia.",
+    "Seu pulso permanecia imóvel sob meus dedos.",
+    "Por alguns instantes, fiquei completamente paralisado, incapaz de acreditar no que havia acontecido.",
+    "O silêncio daquele quarto parecia mais assustador do que qualquer grito que eu já tivesse ouvido.",
+    "Meu primeiro impulso foi fugir dali, mas minhas pernas não obedeciam.",
+    "Naquele momento, compreendi que minha vida jamais voltaria a ser a mesma."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Chamar imediatamente os empregados da casa",
+      "atributo": "honestidade",
+      "valor": 1,
+      "proximaCena": 57
+    },
+
+    {
+      "texto": "Tentar recuperar a calma antes de avisar os demais",
+      "atributo": "prudencia",
+      "valor": 1,
+      "proximaCena": 57
+    }
+
+  ]
+},
+{
+  "id": 57,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "sala_casa.jpeg",
+
+  "texto": [
+    "Depois de alguns minutos, consegui reunir coragem para chamar os empregados.",
+    "Um a um, eles entraram no quarto e permaneceram em silêncio diante da cama do coronel.",
+    "A notícia espalhou-se rapidamente pela casa.",
+    "Todos acreditavam que a doença finalmente havia vencido aquele homem de temperamento tão difícil.",
+    "Ninguém suspeitou do que realmente acontecera durante a madrugada.",
+    "Enquanto observava a movimentação, senti um peso insuportável sobre a consciência.",
+    "Eu era o único que conhecia toda a verdade."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Acompanhar os preparativos para o funeral",
+      "atributo": "responsabilidade",
+      "valor": 1,
+      "proximaCena": 58
+    },
+
+    {
+      "texto": "Permanecer sozinho, tentando compreender o que aconteceu",
+      "atributo": "consciencia",
+      "valor": 1,
+      "proximaCena": 58
+    }
+
+  ]
+},
+{
+  "id": 58,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "testamento.jpeg",
+
+  "texto": [
+    "Os dias passaram entre o velório, o enterro e o silêncio que tomou conta da antiga residência.",
+    "Quando tudo parecia terminado, fui chamado pelo tabelião para acompanhar a leitura do testamento do coronel.",
+    "A sala permaneceu em absoluto silêncio enquanto o documento era lido.",
+    "Para surpresa de todos os presentes, o coronel havia deixado a maior parte de seus bens para mim.",
+    "Os empregados se entreolharam sem compreender aquela decisão.",
+    "Eu permaneci imóvel. A herança, que para muitos seria uma fortuna, pesava sobre mim como uma sentença.",
+    "Naquele instante, percebi que jamais conseguiria separar aquela riqueza da lembrança daquela madrugada."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Aceitar a herança em silêncio",
+      "atributo": "ambicao",
+      "valor": 1,
+      "proximaCena": 59
+    },
+
+    {
+      "texto": "Questionar se realmente merece aquela herança",
+      "atributo": "consciencia",
+      "valor": 1,
+      "proximaCena": 59
+    }
+
+  ]
+},
+{
+  "id": 59,
+
+  "personagem": "procopio",
+
+  "nome": "Procópio Valongo",
+
+  "imagem": "escritorio.jpeg",
+
+  "texto": [
+    "Durante dias, não consegui pensar em outra coisa além do testamento.",
+    "A fortuna que o coronel me deixara parecia trazer consigo o peso daquela madrugada.",
+    "Muitas vezes me perguntei se eu tinha o direito de aceitar aqueles bens.",
+    "Em outras ocasiões, tentava convencer a mim mesmo de que ninguém jamais desconfiara de mim.",
+    "Mesmo assim, minha consciência jamais voltou a ficar em paz.",
+    "A verdadeira sentença não havia sido dada por um juiz, mas pela minha própria memória."
+  ],
+
+  "escolhas": [
+
+    {
+      "texto": "Aceitar a herança e seguir em frente",
+      "atributo": "ambicao",
+      "valor": 1,
+      "proximaCena": 60
+    },
+
+    {
+      "texto": "Doar parte da herança para obras de caridade, buscando aliviar a culpa",
+      "atributo": "compaixao",
+      "valor": 1,
+      "proximaCena": 60
+    },
+
+    {
+      "texto": "Recusar a herança por não conseguir conviver com o peso da consciência",
+      "atributo": "honestidade",
+      "valor": 1,
+      "proximaCena": 60
+    }
+
+  ]
+},
+{
+  "id": 60,
+
+  "personagem": "",
+
+  "nome": "",
+
+  "imagem": "final.jpeg",
+
+  "texto": [
+
+    "FIM",
+
+    "",
+
+    "\"Toda escolha deixa uma marca. Toda consciência guarda um julgamento.\"", 
+
+    "",
+
+    "O ENFERMEIRO RPG",
+
+    "Baseado no conto 'O Enfermeiro', de Machado de Assis, publicado na coletânea Várias Histórias (1896).",
+
+    "",
+
+    "Projeto desenvolvido por:",
+
+    "Rafaela Ferreira Felix",
+
+    "Ruthelly Ferreira da Silva",
+
+    "Yasmim Vasconcelos Felix",
+
+    "",
+
+    "Orientação:",
+
+    "Prof.ª Arethusa A. F. de Oliveira",
+
+    "",
+
+    "Escola Estadual Professor Antônio Basílio Filho",
+
+    "Turma: 2º Ano A",
+
+    "Ano letivo: 2026",
+
+    "",
+
+    "Tecnologias utilizadas:",
+
+    "HTML5 • CSS3 • JavaScript • Visual Studio Code",
+
+    "",
+
+    "Obrigado por jogar."
+
+  ],
+
+  "escolhas": []
+}
+  ]
+}

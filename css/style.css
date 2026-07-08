@@ -1,0 +1,629 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'IM Fell English', serif;
+}
+
+
+body{
+
+    background:#0d0d0d;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    overflow:hidden;
+
+}
+
+
+
+/* TELA INICIAL */
+
+.inicio{
+
+    height:100vh;
+
+    width:100%;
+
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    text-align:center;
+
+
+    background-image:
+
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+
+    url("../img/capa.jpeg");
+
+
+    background-size:90% auto;
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+
+    color:white;
+
+}
+
+
+
+.inicio h1{
+
+    font-family:'Cinzel', serif;
+
+    font-size:60px;
+
+    letter-spacing:8px;
+
+    margin-bottom:10px;
+
+
+    color:#d9c28f;
+
+
+    text-shadow:
+
+    0 0 10px #000,
+
+    0 0 25px #000;
+
+}
+
+
+
+.inicio h2{
+
+    font-family:'Cinzel', serif;
+
+    font-size:28px;
+
+    font-weight:normal;
+
+
+    margin-bottom:40px;
+
+
+    color:#ddd;
+
+}
+
+
+
+/* BOTÕES */
+
+.inicio button{
+
+
+    font-family:'Cinzel', serif;
+
+
+    width:250px;
+
+
+    padding:15px;
+
+
+    margin:10px;
+
+
+    font-size:18px;
+
+
+    border-radius:12px;
+
+
+    border:1px solid #d9c28f;
+
+
+    background:rgba(60,35,20,.65);
+
+
+    color:#f2dfb0;
+
+
+    cursor:pointer;
+
+
+    transition:.3s;
+
+}
+
+
+
+.inicio button:hover{
+
+
+    background:rgba(120,80,40,.55);
+
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* PAINEL DO MESTRE */
+
+.painel{
+
+
+    position:fixed;
+
+
+    left:50%;
+
+
+    bottom:10px;
+
+
+    transform:translateX(-50%);
+
+
+
+    width:70%;
+
+
+    max-width:850px;
+
+
+
+    padding:15px;
+
+
+
+    background:rgba(25,18,12,.88);
+
+
+    backdrop-filter:blur(8px);
+
+
+
+    border-radius:15px;
+
+
+    border:1px solid rgba(217,194,143,.35);
+
+
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,.8);
+
+
+
+}
+
+
+
+/* NARRAÇÃO */
+
+
+#narracao{
+
+
+    margin-top:10px;
+
+
+    margin-bottom:15px;
+
+
+    line-height:1.8;
+
+
+    font-size:19px;
+
+
+    color:#f1e6cf;
+
+    text-shadow:0 1px 2px black;
+
+}
+
+
+
+/* ESCOLHAS */
+
+
+#escolhas{
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:8px;
+
+
+}
+
+
+
+#escolhas button{
+
+
+    background:rgba(255,255,255,0.05);
+
+
+    color:#eee;
+
+
+    border:1px solid rgba(217,194,143,.25);
+
+
+    border-radius:10px;
+
+
+
+    padding:10px;
+
+
+    font-family:'IM Fell English', serif;
+
+
+    font-size:17px;
+
+
+
+    cursor:pointer;
+
+
+    transition:.25s;
+
+}
+
+
+
+#escolhas button:hover{
+
+
+    background:rgba(217,194,143,.18);
+
+
+    transform:translateX(8px);
+
+
+}
+
+
+
+/* STATUS */
+
+#atributos{
+
+
+    margin-top:10px;
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:6px;
+
+}
+
+
+
+.atributo{
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    gap:8px;
+
+
+    font-size:14px;
+
+}
+
+
+
+.nomeAtributo{
+
+
+    width:100px;
+
+
+    font-weight:bold;
+
+
+    color:#d9c28f;
+
+}
+
+
+
+.barra{
+
+
+    flex:1;
+
+
+    height:10px;
+
+
+    background:#3a3028;
+
+
+    border-radius:10px;
+
+
+    overflow:hidden;
+
+}
+
+
+
+.preenchimento{
+
+
+    height:100%;
+
+
+    transition:width .4s;
+
+
+    border-radius:10px;
+
+}
+
+
+
+.moral{
+
+    background:#8b3a3a;
+
+}
+
+
+.paciencia{
+
+    background:#456b8a;
+
+}
+
+
+.consciencia{
+
+    background:#70558f;
+
+}
+
+
+.ambicao{
+
+    background:#b08b2e;
+
+}
+
+
+.medo{
+
+    background:#555;
+
+}
+
+
+.prudencia{
+
+    background:#467a50;
+
+}
+
+
+
+/* CENÁRIO */
+
+#cenario{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    z-index:-1;
+
+    transform:scale(1);
+
+    transition:
+        transform 15s linear,
+        background-image .8s ease;
+
+}
+
+/* EFEITO DE ENVELHECIMENTO DA TELA */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+
+    pointer-events:none;
+
+
+    background:
+
+    radial-gradient(
+        circle,
+        transparent 40%,
+        rgba(0,0,0,.75) 100%
+    );
+
+
+    z-index:10;
+
+}
+
+
+
+/* TRANSIÇÃO ENTRE CENAS */
+
+.transicao{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+
+    width:100%;
+
+    height:100%;
+
+
+    background:black;
+
+
+    opacity:0;
+
+
+    pointer-events:none;
+
+
+    transition:opacity 1s ease;
+
+
+    z-index:20;
+
+}
+
+
+.transicao.ativa{
+
+    opacity:1;
+
+}
+
+
+/* ========================= */
+/* FADE ENTRE CENAS */
+/* ========================= */
+
+#fade{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:black;
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:opacity .8s ease;
+
+    z-index:999;
+
+}
+
+#fade.ativo{
+
+    opacity:1;
+
+}
+
+
+/* ============================
+   CABEÇALHO DO DIÁLOGO
+============================ */
+
+#cabecalhoDialogo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    margin-bottom:20px;
+
+}
+
+
+/* RETRATO */
+
+#personagem{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:15px;
+
+    border:2px solid rgba(255,255,255,.2);
+
+    background:#1d1d1d;
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    box-shadow:0 0 20px rgba(0,0,0,.6);
+
+}
+
+
+/* NOME */
+
+#nomePersonagem{
+
+    font-size:28px;
+
+    color:#d9c28f;
+
+    letter-spacing:2px;
+
+}
