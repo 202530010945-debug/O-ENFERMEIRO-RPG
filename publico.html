@@ -8,71 +8,60 @@
 
 <title>O Enfermeiro RPG - Público</title>
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/publico.css">
 
 </head>
 
-
 <body>
 
-<div class="inicio">
+<div id="telaNome" class="inicio">
 
-<h1>O ENFERMEIRO RPG</h1>
+    <h1>O ENFERMEIRO</h1>
 
-<h2>MODO PÚBLICO</h2>
+    <h2>Modo Público</h2>
 
-<p>
-Entre na aventura
-</p>
+    <input
+        type="text"
+        id="nomeJogador"
+        placeholder="Digite seu nome">
 
+    <br><br>
 
-<input 
-type="text" 
-id="nomeJogador"
-placeholder="Digite seu nome">
-
-
-<br><br>
-
-
-<button onclick="entrarSala()">
-
-ENTRAR NA SALA
-
-</button>
-
-
-<p id="mensagem"></p>
-
+    <button id="btnEntrar">
+        INICIAR AVENTURA
+    </button>
 
 </div>
 
 
 
-<script>
+<div id="jogo" style="display:none;">
 
-function entrarSala(){
+    <div id="cenario"></div>
 
-let nome = document.getElementById("nomeJogador").value;
+    <div class="painel">
+
+    <div id="personagem">
+        
+    </div>
+
+    <h2 id="titulo">
+        Capítulo
+    </h2>
+
+    <div id="texto"></div>
+
+    <div id="escolhas"></div>
+
+    <div id="atributos"></div>
+
+</div>
+
+</div>
 
 
-if(nome.trim() === ""){
-
-document.getElementById("mensagem").innerHTML =
-"Digite seu nome.";
-
-return;
-
-}
-
-
-document.getElementById("mensagem").innerHTML =
-"Bem-vindo, " + nome + "!";
-
-}
-
-</script>
-
+<script src="js/engine.js"></script>
+<script src="js/publico.js"></script>
 
 </body>
 
