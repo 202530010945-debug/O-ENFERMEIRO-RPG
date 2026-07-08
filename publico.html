@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>O Enfermeiro RPG - Público</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+<div class="inicio">
+
+<h1>O ENFERMEIRO RPG</h1>
+
+<h2>MODO PÚBLICO</h2>
+
+<p>
+Entre na aventura
+</p>
+
+
+<input 
+type="text" 
+id="nomeJogador"
+placeholder="Digite seu nome">
+
+
+<br><br>
+
+
+<button onclick="entrarSala()">
+
+ENTRAR NA SALA
+
+</button>
+
+
+<p id="mensagem"></p>
+
+
+</div>
+
+
+
+<script>
+
+function entrarSala(){
+
+let nome = document.getElementById("nomeJogador").value;
+
+
+if(nome.trim() === ""){
+
+document.getElementById("mensagem").innerHTML =
+"Digite seu nome.";
+
+return;
+
+}
+
+
+document.getElementById("mensagem").innerHTML =
+"Bem-vindo, " + nome + "!";
+
+}
+
+</script>
+
+
+</body>
+
+</html>
