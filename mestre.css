@@ -1,0 +1,431 @@
+/* ==========================
+   O ENFERMEIRO RPG
+   Mestre 4.0 - Parte 1
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    overflow:hidden;
+
+    background:#000;
+
+    font-family:"IM Fell English", serif;
+
+    color:#fff;
+
+}
+
+/* ==========================
+   CENÁRIO
+========================== */
+
+#cenario{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100vw;
+    height:100vh;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    transition:
+        background-image .8s ease,
+        transform 6s ease;
+
+    transform:scale(1);
+
+    z-index:1;
+
+}
+
+/* ==========================
+   CAMADA ESCURA
+========================== */
+
+#cenario::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.35);
+
+}
+
+/* ==========================
+   FADE
+========================== */
+
+#fade{
+
+    position:fixed;
+
+    inset:0;
+
+    background:#000;
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:opacity .8s;
+
+    z-index:999;
+
+}
+
+#fade.ativo{
+
+    opacity:1;
+
+}
+
+/* ==========================
+   PAINEL
+========================== */
+
+.painel{
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:40px;
+
+    transform:translateX(-50%);
+
+    width:90%;
+
+    max-width:1200px;
+
+    background:rgba(12,12,12,.88);
+
+    border:1px solid rgba(255,255,255,.18);
+
+    border-radius:18px;
+
+    backdrop-filter:blur(10px);
+
+    padding:45px;
+
+    z-index:10;
+
+    max-height:90vh;
+    overflow-y: auto;
+
+    box-shadow:
+0 0 35px rgba(0,0,0,.6),
+0 0 8px rgba(215,177,95,.15);
+
+transform: translate(-50%, 400px);
+
+}
+
+/* ==========================
+   TÍTULO
+========================== */
+
+.painel h1{
+
+    font-family:"Cinzel", serif;
+
+    text-align:center;
+
+    color:#d7b15f;
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================
+   PERSONAGEM
+========================== */
+
+#cabecalhoDialogo{
+
+    margin-bottom:15px;
+
+}
+
+#personagem{
+
+    display:inline-block;
+
+    background:linear-gradient(90deg,#5b0000,#8d1d1d);
+
+    color:white;
+
+    padding:8px 20px;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    box-shadow:0 0 12px rgba(0,0,0,.4);
+
+}
+
+/* ==========================
+   TEXTO
+========================== */
+
+#texto{
+
+    font-size:22px;
+
+    line-height:1.7;
+
+    min-height:180px;
+
+    white-space:pre-line;
+
+    margin-bottom:20px;
+
+}
+
+h3{
+
+    color:#d7b15f;
+
+    font-size:22px;
+
+    margin:25px 0 12px;
+
+    border-bottom:1px solid rgba(215,177,95,.35);
+
+    padding-bottom:8px;
+
+}
+
+    /* ==========================
+   ESCOLHAS
+========================== */
+
+#escolhas{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    margin-bottom:25px;
+
+}
+
+.opcao{
+
+    width:100%;
+
+    padding:16px;
+
+    background:rgba(40,40,40,.9);
+
+    border:2px solid rgba(215,177,95,.45);
+
+    border-radius:10px;
+
+    color:white;
+
+    font-size:18px;
+
+    font-family:"IM Fell English", serif;
+
+    cursor:pointer;
+
+    transition:all .3s ease;
+
+}
+
+.opcao:hover{
+
+    background:#6d0000;
+
+    border-color:#d7b15f;
+
+    transform:translateX(8px);
+
+    box-shadow:0 0 15px rgba(215,177,95,.35);
+
+}
+/* ==========================
+   ATRIBUTOS
+========================== */
+
+.atributo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin:12px 0;
+
+}
+
+.nomeAtributo{
+
+    width:120px;
+
+    font-weight:bold;
+
+}
+
+.barra{
+
+    flex:1;
+
+    height:14px;
+
+    background:#222;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.2);
+
+}
+
+.preenchimento{
+
+    height:100%;
+
+    transition:width .5s;
+
+}
+.moral{
+    background:#4caf50;
+}
+
+.paciencia{
+    background:#2196f3;
+}
+
+.consciencia{
+    background:#9c27b0;
+}
+
+.ambicao{
+    background:#ff9800;
+}
+
+.medo{
+    background:#f44336;
+}
+
+.prudencia{
+    background:#00bcd4;
+}
+
+
+/* ==========================
+   CAIXA DE NARRAÇÃO
+========================== */
+
+#texto{
+
+    background:rgba(0,0,0,.35);
+
+    border-left:5px solid #d7b15f;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:0 0 20px rgba(0,0,0,.35);
+
+}
+
+/* ==========================
+   ANIMAÇÃO DO CENÁRIO
+========================== */
+
+@keyframes respirar{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.03);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+
+}
+
+#cenario{
+
+    animation:respirar 18s ease-in-out infinite;
+}
+@keyframes subirPainel{
+
+    0%{
+        opacity:0;
+        transform:translate(-50%,400px);
+    }
+
+    100%{
+        opacity:1;
+        transform:translate(-50%,0);
+    }
+
+}
+    @media (max-width:600px){
+
+    .painel{
+
+        bottom:15px;
+
+        width:94%;
+
+        padding:25px;
+
+        max-height:80vh;
+
+        overflow-y:auto;
+
+    }
+    #texto{
+
+        font-size:18px;
+
+        line-height:1.5;
+
+        min-height:auto;
+
+    }
+
+    .painel h1{
+
+        font-size:26px;
+
+    }
+
+
+
+}
+
+
+
