@@ -8,33 +8,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Painel do Mestre</title>
-
+ 
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=IM+Fell+English&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/mestre.css">
 
 </head>
 
 <body>
 
-<div id="telaQR">
 
-    <h1>O ENFERMEIRO RPG</h1>
-
-    <h2>Entre na aventura</h2>
-
-    <img src="img/qrcode.pneg" alt="QR Code">
-
-    <p>
-        Aponte a câmera do celular para participar
-    </p>
-
-    <button onclick="iniciarMestre()">
-        COMEÇAR CAPÍTULO
-    </button>
-
-</div>
-
-
-<div id="jogoMestre" style="display:none;">
 
     <div id="fade"></div>
     <div class="transicao"></div>
@@ -47,9 +29,7 @@
 
         <div id="cabecalhoDialogo">
 
-            <div id="personagem"></div>
-
-            <div id="nomePersonagem"></div>
+            <span id="personagem"></span>
 
         </div>
 
@@ -65,7 +45,6 @@
 
     </div>
 
-</div>
 
 
 <script src="js/engine.js"></script>

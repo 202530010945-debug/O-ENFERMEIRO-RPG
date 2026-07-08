@@ -3,13 +3,6 @@
 // Mestre 3.0
 // ======================================
 
-function iniciarMestre(){
-
-    document.getElementById("telaQR").style.display = "none";
-
-    document.getElementById("jogoMestre").style.display = "block";
-
-}
 
 const engine = new Engine();
 
@@ -23,6 +16,8 @@ const escolhas = document.getElementById("escolhas");
 const atributos = document.getElementById("atributos");
 const cenario = document.getElementById("cenario");
 const fade = document.getElementById("fade");
+
+let primeiraCena = true;
 
 // Velocidade da máquina de escrever
 const VELOCIDADE_TEXTO = 20;
@@ -60,28 +55,36 @@ async function atualizarTela(){
     if(!cena) return;
 
     // Fade para preto
-    await fadeIn();
+   await fadeIn();
 
-    // Atualiza título
-    mostrarTitulo();
+mostrarTitulo();
 
-    // Atualiza cenário
-    mostrarCenario(cena);
+mostrarCenario(cena);
 
-    // Fade de volta
-    await fadeOut();
+await fadeOut();
 
-    // Limpa escolhas
-    escolhas.innerHTML = "";
+// espera o cenário aparecer
+await esperar(700);
 
-    // Mostra narração
-    await mostrarNarracao(cena);
+const painel = document.querySelector(".painel");
 
-    // Mostra escolhas
-    await mostrarEscolhas(cena);
+painel.style.animation = "subirPainel 2.8s cubic-bezier(.22,1,.36,1) forwards";
 
-    // Atualiza atributos
-    mostrarAtributos();
+await esperar(2800);
+
+// sobe o painel
+document.querySelector(".painel").classList.add("entrando");
+
+// espera terminar a animação
+await esperar(2800);
+
+escolhas.innerHTML = "";
+
+await mostrarNarracao(cena);
+
+await mostrarEscolhas(cena);
+
+mostrarAtributos();
 
 }
 

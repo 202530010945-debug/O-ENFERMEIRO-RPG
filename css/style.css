@@ -625,5 +625,15 @@ body::before{
     color:#d9c28f;
 
     letter-spacing:2px;
+}
+    .qrcode{
+
+    width:180px;
+
+    background:white;
+
+    padding:10px;
+
+    border-radius:12px;
 
 }

@@ -36,13 +36,31 @@ function mostrar(){
 
     }else{
 
-        setTimeout(()=>{
+    setTimeout(()=>{
 
-            location.href="mestre.html";
+        texto.innerHTML = `
 
-        },4000);
+        <h1>O ENFERMEIRO RPG</h1>
 
-    }
+        <h2>Escaneie para participar da história</h2>
+
+        <img src="img/qrcode.pneg" class="qrcode" alt="QR Code">
+
+        <br><br>
+
+        <button onclick="location.href='mestre.html'">
+            MODO MESTRE
+        </button>
+
+        <button onclick="location.href='publico.html'">
+            MODO PÚBLICO
+        </button>
+
+        `;
+
+    },4000);
+
+}
 
 }
 
