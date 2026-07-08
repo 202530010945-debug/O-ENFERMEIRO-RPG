@@ -3,6 +3,14 @@
 // Mestre 3.0
 // ======================================
 
+function iniciarMestre(){
+
+    document.getElementById("telaQR").style.display = "none";
+
+    document.getElementById("jogoMestre").style.display = "block";
+
+}
+
 const engine = new Engine();
 
 // ===============================

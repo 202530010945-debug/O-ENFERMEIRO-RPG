@@ -1,0 +1,172 @@
+body {
+
+    margin:0;
+
+    font-family:"IM Fell English", serif;
+
+    background:black;
+
+    overflow:hidden;
+
+}
+
+
+/* ===============================
+   TELA QR CODE
+================================ */
+
+#telaQR {
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.75),
+    rgba(0,0,0,0.95)
+    ),
+    url("../img/capa.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+
+#telaQR h1 {
+
+    font-family:"Cinzel", serif;
+
+    font-size:45px;
+
+    letter-spacing:5px;
+
+    color:#d4af37;
+
+}
+
+
+#telaQR h2 {
+
+    font-size:30px;
+
+}
+
+
+#telaQR img {
+
+    width:250px;
+
+    height:250px;
+
+    background:white;
+
+    padding:15px;
+
+    border:3px solid #d4af37;
+
+    border-radius:15px;
+
+}
+
+
+#telaQR p {
+
+    font-size:20px;
+
+}
+
+
+#telaQR button {
+
+    margin-top:20px;
+
+    padding:15px 40px;
+
+    font-size:18px;
+
+    font-family:"Cinzel", serif;
+
+    background:#6b0000;
+
+    color:white;
+
+    border:2px solid #d4af37;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+}
+
+
+
+/* ===============================
+   JOGO MESTRE
+================================ */
+
+
+#jogoMestre {
+
+    width:100vw;
+
+    height:100vh;
+
+}
+
+
+#cenario {
+
+    position:fixed;
+
+    width:100%;
+
+    height:100%;
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+
+.painel {
+
+    position:absolute;
+
+    bottom:20px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:80%;
+
+    padding:25px;
+
+    background:rgba(0,0,0,0.75);
+
+    color:white;
+
+    border-radius:15px;
+
+}
+
+
+#texto {
+
+    font-size:22px;
+
+}
